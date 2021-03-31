@@ -1,0 +1,387 @@
+{
+  "attrs": [
+    {
+      "attrId": 1,
+      "attrName": "入网型号",
+      "attrValue": [
+        "A2404",
+        "NOH-AN00",
+        "1234"
+      ]
+    }
+  ],
+  "brands": [
+    {
+      "brandId": 14,
+      "brandImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-12/3cb9bd8f-7187-4024-815c-397367831a93_apple.png",
+      "brandName": "Apple"
+    },
+    {
+      "brandId": 11,
+      "brandImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-12/836e034a-c5d3-44d7-8737-a1e35b09dc1d_huawei.png",
+      "brandName": "华为"
+    },
+    {
+      "brandId": 12,
+      "brandImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-12/f958a152-5a30-4cca-8878-2ba60e9ee53e_xiaomi.png",
+      "brandName": "小米"
+    }
+  ],
+  "catalogs": [],
+  "pageNum": 1,
+  "products": [
+    {
+      "attrs": [
+        {
+          "attrId": 1,
+          "attrName": "入网型号",
+          "attrValue": "A2404"
+        }
+      ],
+      "brandId": 14,
+      "brandImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-12/3cb9bd8f-7187-4024-815c-397367831a93_apple.png",
+      "brandName": "Apple",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 9,
+      "skuImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-14/cab967e3-68fb-4ab9-8cea-e14085bdb253_1613236613.png",
+      "skuPrice": 6299.0,
+      "skuTitle": "Apple iPhone 12  黑色 64GB 5000万",
+      "spuId": 8
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 1,
+          "attrName": "入网型号",
+          "attrValue": "A2404"
+        }
+      ],
+      "brandId": 14,
+      "brandImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-12/3cb9bd8f-7187-4024-815c-397367831a93_apple.png",
+      "brandName": "Apple",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 10,
+      "skuImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-14/cab967e3-68fb-4ab9-8cea-e14085bdb253_1613236613.png",
+      "skuPrice": 6799.0,
+      "skuTitle": "Apple iPhone 12  黑色 128GB 5000万",
+      "spuId": 8
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 1,
+          "attrName": "入网型号",
+          "attrValue": "A2404"
+        }
+      ],
+      "brandId": 14,
+      "brandImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-12/3cb9bd8f-7187-4024-815c-397367831a93_apple.png",
+      "brandName": "Apple",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 11,
+      "skuImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-14/cab967e3-68fb-4ab9-8cea-e14085bdb253_1613236613.png",
+      "skuPrice": 7599.0,
+      "skuTitle": "Apple iPhone 12  黑色 256GB 5000万",
+      "spuId": 8
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 1,
+          "attrName": "入网型号",
+          "attrValue": "A2404"
+        }
+      ],
+      "brandId": 14,
+      "brandImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-12/3cb9bd8f-7187-4024-815c-397367831a93_apple.png",
+      "brandName": "Apple",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 12,
+      "skuImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-14/0dcf50b8-15ab-4fb7-8092-7e4636b0f05e_1613236658.jpg",
+      "skuPrice": 6299.0,
+      "skuTitle": "Apple iPhone 12  白色 64GB 5000万",
+      "spuId": 8
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 1,
+          "attrName": "入网型号",
+          "attrValue": "A2404"
+        }
+      ],
+      "brandId": 14,
+      "brandImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-12/3cb9bd8f-7187-4024-815c-397367831a93_apple.png",
+      "brandName": "Apple",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 13,
+      "skuImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-14/0dcf50b8-15ab-4fb7-8092-7e4636b0f05e_1613236658.jpg",
+      "skuPrice": 6799.0,
+      "skuTitle": "Apple iPhone 12  白色 128GB 5000万",
+      "spuId": 8
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 1,
+          "attrName": "入网型号",
+          "attrValue": "A2404"
+        }
+      ],
+      "brandId": 14,
+      "brandImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-12/3cb9bd8f-7187-4024-815c-397367831a93_apple.png",
+      "brandName": "Apple",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 14,
+      "skuImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-14/0dcf50b8-15ab-4fb7-8092-7e4636b0f05e_1613236658.jpg",
+      "skuPrice": 7599.0,
+      "skuTitle": "Apple iPhone 12  白色 256GB 5000万",
+      "spuId": 8
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 1,
+          "attrName": "入网型号",
+          "attrValue": "A2404"
+        }
+      ],
+      "brandId": 14,
+      "brandImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-12/3cb9bd8f-7187-4024-815c-397367831a93_apple.png",
+      "brandName": "Apple",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 15,
+      "skuImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-14/a7d6e7a7-08a5-48ae-8f1d-4d421fe91791_d9c4bb61feb3e466.jpg",
+      "skuPrice": 6299.0,
+      "skuTitle": "Apple iPhone 12  蓝色 64GB 5000万",
+      "spuId": 8
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 1,
+          "attrName": "入网型号",
+          "attrValue": "A2404"
+        }
+      ],
+      "brandId": 14,
+      "brandImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-12/3cb9bd8f-7187-4024-815c-397367831a93_apple.png",
+      "brandName": "Apple",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 16,
+      "skuImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-14/a7d6e7a7-08a5-48ae-8f1d-4d421fe91791_d9c4bb61feb3e466.jpg",
+      "skuPrice": 6799.0,
+      "skuTitle": "Apple iPhone 12  蓝色 128GB 5000万",
+      "spuId": 8
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 1,
+          "attrName": "入网型号",
+          "attrValue": "A2404"
+        }
+      ],
+      "brandId": 14,
+      "brandImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-12/3cb9bd8f-7187-4024-815c-397367831a93_apple.png",
+      "brandName": "Apple",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 17,
+      "skuImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-14/a7d6e7a7-08a5-48ae-8f1d-4d421fe91791_d9c4bb61feb3e466.jpg",
+      "skuPrice": 7599.0,
+      "skuTitle": "Apple iPhone 12  蓝色 256GB 5000万",
+      "spuId": 8
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 1,
+          "attrName": "入网型号",
+          "attrValue": "A2404"
+        }
+      ],
+      "brandId": 14,
+      "brandImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-12/3cb9bd8f-7187-4024-815c-397367831a93_apple.png",
+      "brandName": "Apple",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 18,
+      "skuImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-14/d64b3527-4123-4232-8b90-b7b2db9877c7_d67afe96710274bd.jpg",
+      "skuPrice": 6299.0,
+      "skuTitle": "Apple iPhone 12  红色 64GB 5000万",
+      "spuId": 8
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 1,
+          "attrName": "入网型号",
+          "attrValue": "A2404"
+        }
+      ],
+      "brandId": 14,
+      "brandImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-12/3cb9bd8f-7187-4024-815c-397367831a93_apple.png",
+      "brandName": "Apple",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 19,
+      "skuImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-14/d64b3527-4123-4232-8b90-b7b2db9877c7_d67afe96710274bd.jpg",
+      "skuPrice": 6799.0,
+      "skuTitle": "Apple iPhone 12  红色 128GB 5000万",
+      "spuId": 8
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 1,
+          "attrName": "入网型号",
+          "attrValue": "A2404"
+        }
+      ],
+      "brandId": 14,
+      "brandImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-12/3cb9bd8f-7187-4024-815c-397367831a93_apple.png",
+      "brandName": "Apple",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 20,
+      "skuImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-14/d64b3527-4123-4232-8b90-b7b2db9877c7_d67afe96710274bd.jpg",
+      "skuPrice": 7599.0,
+      "skuTitle": "Apple iPhone 12  红色 256GB 5000万",
+      "spuId": 8
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 1,
+          "attrName": "入网型号",
+          "attrValue": "A2404"
+        }
+      ],
+      "brandId": 14,
+      "brandImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-12/3cb9bd8f-7187-4024-815c-397367831a93_apple.png",
+      "brandName": "Apple",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 21,
+      "skuImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-14/f6ece5d2-2370-4f16-8108-597e50873425_d6c7afe589334ce9.jpg",
+      "skuPrice": 6299.0,
+      "skuTitle": "Apple iPhone 12  绿色 64GB 5000万",
+      "spuId": 8
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 1,
+          "attrName": "入网型号",
+          "attrValue": "A2404"
+        }
+      ],
+      "brandId": 14,
+      "brandImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-12/3cb9bd8f-7187-4024-815c-397367831a93_apple.png",
+      "brandName": "Apple",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 22,
+      "skuImg": "",
+      "skuPrice": 6799.0,
+      "skuTitle": "Apple iPhone 12  绿色 128GB 5000万",
+      "spuId": 8
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 1,
+          "attrName": "入网型号",
+          "attrValue": "A2404"
+        }
+      ],
+      "brandId": 14,
+      "brandImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-12/3cb9bd8f-7187-4024-815c-397367831a93_apple.png",
+      "brandName": "Apple",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 23,
+      "skuImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-14/f6ece5d2-2370-4f16-8108-597e50873425_d6c7afe589334ce9.jpg",
+      "skuPrice": 7599.0,
+      "skuTitle": "Apple iPhone 12  绿色 256GB 5000万",
+      "spuId": 8
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 1,
+          "attrName": "入网型号",
+          "attrValue": "1234"
+        }
+      ],
+      "brandId": 12,
+      "brandImg": "https://gulimall-xny.oss-cn-shanghai.aliyuncs.com/2021-02-12/f958a152-5a30-4cca-8878-2ba60e9ee53e_xiaomi.png",
+      "brandName": "小米",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 24,
+      "skuImg": "",
+      "skuPrice": 0.0,
+      "skuTitle": "测试 红色 12GB 5000万",
+      "spuId": 9
+    }
+  ],
+  "total": 24,
+  "totalPages": 2
+}

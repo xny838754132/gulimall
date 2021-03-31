@@ -8,13 +8,23 @@
     <name>gulimall</name>
     <description>聚合服务</description>
     <packaging>pom</packaging>
-
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
     <modules>
+        <module>gulimall-auth</module>
+        <module>gulimall-cart</module>
+        <module>gulimall-common</module>
         <module>gulimall-coupon</module>
+        <module>gulimall-gateway</module>
         <module>gulimall-member</module>
         <module>gulimall-order</module>
         <module>gulimall-product</module>
+        <module>gulimall-search</module>
+        <module>gulimall-third-party</module>
         <module>gulimall-ware</module>
+        <module>renren-generator</module>
+        <module>renren-fast</module>
     </modules>
 
 </project>
