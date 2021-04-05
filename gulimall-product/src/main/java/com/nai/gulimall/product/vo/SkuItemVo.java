@@ -16,17 +16,17 @@ import java.util.List;
 @Data
 public class SkuItemVo {
 
-    SkuInfoEntity info;
+  SkuInfoEntity info;
 
-    boolean hasStock = true;
+  boolean hasStock = true;
 
-    List<SkuImagesEntity> images;
+  List<SkuImagesEntity> images;
 
-    List<SkuItemSaleAttrVo> saleAttr;
+  List<SkuItemSaleAttrVo> saleAttr;
 
-    SpuInfoDescEntity desc;
+  SpuInfoDescEntity desc;
 
-    List<SpuItemAttrGroupVo> groupAttrs;
-
-
+  List<SpuItemAttrGroupVo> groupAttrs;
+  /** 当前商品的秒杀优惠信息 */
+  SecKillInfoVo secKillInfo;
 }

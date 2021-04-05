@@ -8,7 +8,6 @@ import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;
 import org.springframework.amqp.support.converter.MessageConverter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.lang.Nullable;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -43,7 +42,7 @@ public class MyRabbitConfig {
         Map<String, Object> arguments = new HashMap<>();
         arguments.put("x-dead-letter-exchange", "stock-event-exchange");
         arguments.put("x-dead-letter-routing-key", "stock.release");
-        arguments.put("x-message-ttl", 120000);
+        arguments.put("x-message-ttl", 60000*30);
         return new Queue("stock.delay.queue", true, false, false, arguments);
     }
 

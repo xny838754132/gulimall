@@ -51,6 +51,10 @@
 					<groupId>com.baomidou</groupId>
 					<artifactId>mybatis-plus-generator</artifactId>
 				</exclusion>
+				<exclusion>
+					<artifactId>jsqlparser</artifactId>
+					<groupId>com.github.jsqlparser</groupId>
+				</exclusion>
 			</exclusions>
 		</dependency>
 		<dependency>
@@ -80,6 +84,12 @@
 		</dependency>
 		<dependency>
 			<artifactId>velocity</artifactId>
+			<exclusions>
+				<exclusion>
+					<artifactId>commons-lang</artifactId>
+					<groupId>commons-lang</groupId>
+				</exclusion>
+			</exclusions>
 			<groupId>org.apache.velocity</groupId>
 			<version>${velocity.version}</version>
 		</dependency>

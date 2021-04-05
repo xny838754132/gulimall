@@ -23,6 +23,13 @@ spring:
             - Path=/api/product/**
           filters:
             - RewritePath=/api/(?<segment>.*),/$\{segment}
+        #优惠服务路由
+        - id: coupon_route
+          uri: lb://gulimall-coupon
+          predicates:
+            - Path=/api/coupon/**
+          filters:
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
         #第三方服务路由
         - id: third_party_route
           uri: lb://gulimall-third-party
@@ -67,6 +74,11 @@ spring:
           uri: lb://gulimall-member
           predicates:
             - Host=member.gulimall.com
+        # 会员服务
+        - id: gulimall_sec_kill_route
+          uri: lb://gulimall-seckill
+          predicates:
+            - Host=seckill.gulimall.com
 
 
 #前端项目,/api

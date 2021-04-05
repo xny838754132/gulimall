@@ -3,7 +3,7 @@
 
 <mapper namespace="com.nai.gulimall.order.dao.OrderDao">
 
-	<!-- 可根据自己的需求，是否要使用 -->
+    <!-- 可根据自己的需求，是否要使用 -->
     <resultMap type="com.nai.gulimall.order.entity.OrderEntity" id="orderMap">
         <result property="id" column="id"/>
         <result property="memberId" column="member_id"/>
@@ -48,6 +48,11 @@
         <result property="commentTime" column="comment_time"/>
         <result property="modifyTime" column="modify_time"/>
     </resultMap>
+    <update id="updateOrderStatus">
+        UPDATE `oms_order`
+        SET `status` =#{code}
+        WHERE `order_sn` = #{outTradeNo}
+    </update>
 
 
 </mapper>

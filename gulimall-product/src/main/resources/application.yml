@@ -31,10 +31,10 @@ mybatis-plus:
       logic-not-delete-value: 0
 
 server:
-  port: 9000
+  port: 10000
 logging:
   level:
-    com.nai.gulimall: error
+    com.nai.gulimall: info
 
 #alibaba:
 #  cloud:

@@ -15,17 +15,17 @@ import org.springframework.session.web.http.DefaultCookieSerializer;
 @Configuration
 public class GulimallSessionConfig {
 
-    @Bean
-    public CookieSerializer cookieSerializer(){
-        DefaultCookieSerializer cookieSerializer = new DefaultCookieSerializer();
-        cookieSerializer.setDomainName("gulimall.com");
-        cookieSerializer.setCookieName("GULISESSION");
+  @Bean
+  public CookieSerializer cookieSerializer() {
+    DefaultCookieSerializer cookieSerializer = new DefaultCookieSerializer();
+    cookieSerializer.setDomainName("gulimall.com");
+    cookieSerializer.setCookieName("GULISESSION");
 
-        return cookieSerializer;
-    }
+    return cookieSerializer;
+  }
 
-    @Bean
-    public RedisSerializer<Object> springSessionDefaultRedisSerializer() {
-        return new GenericJackson2JsonRedisSerializer();
-    }
+  @Bean
+  public RedisSerializer<Object> springSessionDefaultRedisSerializer() {
+    return new GenericJackson2JsonRedisSerializer();
+  }
 }

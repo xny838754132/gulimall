@@ -13,11 +13,10 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class OrderWebConfiguration implements WebMvcConfigurer {
 
-    @Autowired
-    LoginUserInterceptor interceptor;
+  @Autowired LoginUserInterceptor interceptor;
 
-    @Override
-    public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(interceptor).addPathPatterns("/**");
-    }
+  @Override
+  public void addInterceptors(InterceptorRegistry registry) {
+    registry.addInterceptor(interceptor).addPathPatterns("/**");
+  }
 }

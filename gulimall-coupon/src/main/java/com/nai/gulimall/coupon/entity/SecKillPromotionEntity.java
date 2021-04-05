@@ -15,7 +15,7 @@ import java.util.Date;
  * @date 2021-02-06 22:30:01
  */
 @Data
-@TableName("sms_seckill_promotion")
+@TableName("sms_sec_kill_promotion")
 public class SecKillPromotionEntity implements Serializable {
 	private static final long serialVersionUID = 1L;
 

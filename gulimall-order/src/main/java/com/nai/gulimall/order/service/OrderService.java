@@ -1,12 +1,10 @@
 package com.nai.gulimall.order.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.nai.gulimall.common.to.mq.SecKillOrderTo;
 import com.nai.gulimall.common.utils.PageUtils;
 import com.nai.gulimall.order.entity.OrderEntity;
-import com.nai.gulimall.order.vo.OrderConfirmVo;
-import com.nai.gulimall.order.vo.OrderSubmitVo;
-import com.nai.gulimall.order.vo.PayVo;
-import com.nai.gulimall.order.vo.SubmitOrderResponseVo;
+import com.nai.gulimall.order.vo.*;
 
 import java.util.Map;
 import java.util.concurrent.ExecutionException;
@@ -20,33 +18,38 @@ import java.util.concurrent.ExecutionException;
  */
 public interface OrderService extends IService<OrderEntity> {
 
-    PageUtils queryPage(Map<String, Object> params);
+  PageUtils queryPage(Map<String, Object> params);
 
-    /**
-     * 订单确认页 返回需要用的数据
-     * @return
-     */
-    OrderConfirmVo confirmOrder() throws ExecutionException, InterruptedException;
+  /**
+   * 订单确认页 返回需要用的数据
+   *
+   * @return
+   */
+  OrderConfirmVo confirmOrder() throws ExecutionException, InterruptedException;
 
-    /**
-     * 下单
-     * @param orderSubmitVo
-     * @return
-     */
-    SubmitOrderResponseVo submitOrder(OrderSubmitVo orderSubmitVo);
+  /**
+   * 下单
+   *
+   * @param orderSubmitVo
+   * @return
+   */
+  SubmitOrderResponseVo submitOrder(OrderSubmitVo orderSubmitVo);
 
-    OrderEntity getOrderByOrderSn(String orderSn);
+  OrderEntity getOrderByOrderSn(String orderSn);
 
-    void closeOrder(OrderEntity entity);
+  void closeOrder(OrderEntity entity);
 
-    /**
-     * 获取当前订单的支付信息
-     * @param orderSn
-     * @return
-     */
-    PayVo getOrderPay(String orderSn);
+  /**
+   * 获取当前订单的支付信息
+   *
+   * @param orderSn
+   * @return
+   */
+  PayVo getOrderPay(String orderSn);
 
-    PageUtils queryPageWithItem(Map<String, Object> params);
+  PageUtils queryPageWithItem(Map<String, Object> params);
 
+  String handlePayResult(PayAsyncVo vo);
+
+  void createSecKillOrder(SecKillOrderTo secKillOrderTo);
 }
-

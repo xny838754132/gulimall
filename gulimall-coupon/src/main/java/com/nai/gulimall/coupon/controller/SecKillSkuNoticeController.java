@@ -3,7 +3,7 @@ package com.nai.gulimall.coupon.controller;
 import com.nai.gulimall.common.utils.PageUtils;
 import com.nai.gulimall.common.utils.R;
 import com.nai.gulimall.coupon.entity.SecKillSkuNoticeEntity;
-import com.nai.gulimall.coupon.service.SeckillSkuNoticeService;
+import com.nai.gulimall.coupon.service.SecKillSkuNoticeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -23,7 +23,7 @@ import java.util.Map;
 @RequestMapping("coupon/secKillSkuNotice")
 public class SecKillSkuNoticeController {
     @Autowired
-    private SeckillSkuNoticeService seckillSkuNoticeService;
+    private SecKillSkuNoticeService seckillSkuNoticeService;
 
     /**
      * 列表
