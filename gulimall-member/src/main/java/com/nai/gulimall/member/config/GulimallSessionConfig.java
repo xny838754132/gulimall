@@ -8,17 +8,21 @@ import org.springframework.session.web.http.CookieSerializer;
 import org.springframework.session.web.http.DefaultCookieSerializer;
 
 /**
+ * The type Gulimall session config.
+ *
  * @author TheNai
- * @date 2021-03-17 22:17
- * 1.Spring-session依赖
- * 2.spring-session配置
- * 3.引入LoginInterceptor.WebMvcConfigure
+ * @date 2021 -03-17 22:17 1.Spring-session依赖 2.spring-session配置 3.引入LoginInterceptor.WebMvcConfigure
  */
 @Configuration
 public class GulimallSessionConfig {
 
+    /**
+     * Cookie serializer cookie serializer.
+     *
+     * @return the cookie serializer
+     */
     @Bean
-    public CookieSerializer cookieSerializer(){
+    public CookieSerializer cookieSerializer() {
         DefaultCookieSerializer cookieSerializer = new DefaultCookieSerializer();
         cookieSerializer.setDomainName("gulimall.com");
         cookieSerializer.setCookieName("GULISESSION");
@@ -26,6 +30,11 @@ public class GulimallSessionConfig {
         return cookieSerializer;
     }
 
+    /**
+     * Spring session default redis serializer redis serializer.
+     *
+     * @return the redis serializer
+     */
     @Bean
     public RedisSerializer<Object> springSessionDefaultRedisSerializer() {
         return new GenericJackson2JsonRedisSerializer();

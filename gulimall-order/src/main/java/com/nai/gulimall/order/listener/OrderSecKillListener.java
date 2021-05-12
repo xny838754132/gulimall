@@ -21,7 +21,8 @@ public class OrderSecKillListener {
 
 
   @RabbitHandler
-  public void listener(SecKillOrderTo secKillOrderTo, Channel channel, Message message) throws IOException {
+  public void listener(SecKillOrderTo secKillOrderTo, Channel channel, Message message)
+      throws IOException {
     log.info("准备创建秒杀单的详细信息...");
     try {
       orderService.createSecKillOrder(secKillOrderTo);
