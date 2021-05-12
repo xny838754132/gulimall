@@ -11,24 +11,31 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ * The type Member sentinel config.
+ */
 @Configuration
 public class MemberSentinelConfig {
 
-  public MemberSentinelConfig() {
-    WebCallbackManager.setUrlBlockHandler(
-        new UrlBlockHandler() {
-          @Override
-          public void blocked(
-              HttpServletRequest request, HttpServletResponse response, BlockException ex)
-              throws IOException {
-            R error =
-                R.error(
-                    BizCodeEnum.TO_MANY_REQUEST.getCode(),
-                    BizCodeEnum.TO_MANY_REQUEST.getMessage());
-            response.setCharacterEncoding("UTF-8");
-            response.setContentType("application/json");
-            response.getWriter().write(JSON.toJSONString(error));
-          }
-        });
-  }
+    /**
+     * Instantiates a new Member sentinel config.
+     */
+    public MemberSentinelConfig() {
+        WebCallbackManager.setUrlBlockHandler(
+                new UrlBlockHandler() {
+                    @Override
+                    public void blocked(
+                            HttpServletRequest request, HttpServletResponse response,
+                            BlockException ex)
+                            throws IOException {
+                        R error =
+                                R.error(
+                                        BizCodeEnum.TO_MANY_REQUEST.getCode(),
+                                        BizCodeEnum.TO_MANY_REQUEST.getMessage());
+                        response.setCharacterEncoding("UTF-8");
+                        response.setContentType("application/json");
+                        response.getWriter().write(JSON.toJSONString(error));
+                    }
+                });
+    }
 }

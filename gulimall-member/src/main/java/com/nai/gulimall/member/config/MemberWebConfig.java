@@ -7,17 +7,22 @@ import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
+ * The type Member web config.
+ *
  * @author TheNai
- * @date 2021-03-31 20:19
+ * @date 2021 -03-31 20:19
  */
 @Configuration
 public class MemberWebConfig implements WebMvcConfigurer {
 
-    @Autowired
-    LoginUserInterceptor loginUserInterceptor;
+  /**
+   * The Login user interceptor.
+   */
+  @Autowired
+  LoginUserInterceptor loginUserInterceptor;
 
-    @Override
-    public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(loginUserInterceptor).addPathPatterns("/**");
-    }
+  @Override
+  public void addInterceptors(InterceptorRegistry registry) {
+    registry.addInterceptor(loginUserInterceptor).addPathPatterns("/**");
+  }
 }

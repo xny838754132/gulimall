@@ -17,9 +17,12 @@ public class SentinelContractHolder implements Contract {
 
   public List<MethodMetadata> parseAndValidateMetadata(Class<?> targetType) {
     List<MethodMetadata> medata = this.delegate.parseAndValidateMetadata(targetType);
-    medata.forEach((metadata) -> {
-      MethodMetadata var10000 = (MethodMetadata)METADATA_MAP.put(targetType.getName() + metadata.configKey(), metadata);
-    });
+    medata.forEach(
+        (metadata) -> {
+          MethodMetadata var10000 =
+              (MethodMetadata)
+                  METADATA_MAP.put(targetType.getName() + metadata.configKey(), metadata);
+        });
     return medata;
   }
 }
