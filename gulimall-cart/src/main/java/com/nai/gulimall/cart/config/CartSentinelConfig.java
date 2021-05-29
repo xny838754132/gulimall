@@ -11,6 +11,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ * TODO haha
+ */
 @Configuration
 public class CartSentinelConfig {
 
