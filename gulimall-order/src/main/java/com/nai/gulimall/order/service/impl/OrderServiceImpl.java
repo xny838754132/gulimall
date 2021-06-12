@@ -481,8 +481,8 @@ public class OrderServiceImpl extends ServiceImpl<OrderDao, OrderEntity> impleme
     infoEntity.setCallbackTime(vo.getNotify_time());
     paymentInfoService.save(infoEntity);
     // 2.修改订单的状态信息
-    if (vo.getTrade_status().equals("TRADE_SUCCESS")
-        || vo.getTrade_status().equals("TRADE_FINISHED")) {
+    if ("TRADE_SUCCESS".equals(vo.getTrade_status())
+        || "TRADE_FINISHED".equals(vo.getTrade_status())) {
       // 支付成功状态
       String outTradeNo = vo.getOut_trade_no();
       this.baseMapper.updateOrderStatus(outTradeNo, OrderStatusEnum.PAYED.getCode());
